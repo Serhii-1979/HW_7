@@ -1,0 +1,30 @@
+.footer {
+  background-color: #292929;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  box-shadow: 1px 1px 10px rgb(136, 136, 136);
+}
+
+.footer__nav-ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    font-weight: 100;
+}
+@media (max-width: 430px) {
+  .footer {
+    padding: 20px 10px;
+  }
+  .footer li {
+    font-size: 10px;
+
+  }
+}
